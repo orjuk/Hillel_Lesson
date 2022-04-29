@@ -1,0 +1,17 @@
+#paragraph_2 {
+  color: rgb(48, 182, 66);
+  font-size: 14px;
+  text-indent: 110px;
+  font-weight: lighter;
+  font-family: Montserrat;
+}
+.paragraph_3 {
+  color: rgb(99, 12, 66);
+  font-size: 14px;
+  text-indent: 110px;
+  font-weight: normal;
+  font-family: Poppins;
+}
+p:first-letter {
+  color: red;
+}
