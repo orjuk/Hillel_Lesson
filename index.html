@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Real Estate</title>
-        <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -15,7 +15,7 @@
         />
     </head>
     <body>
-        <div class="Search">
+        <header>
             <span class="letter-logo">O</span>
             <span class="text-logo">mah</span>
             <nav class="menu">
@@ -33,8 +33,12 @@
                 <img src="./image/white_house.png" alt="white_house" />
                 <div></div>
                 <form action="#" class="search_group">
-                    <input type="text" class="search" placeholder="Search location, properties, residental group" />
-                    <input type="button" class="search-button" value="Search" />
+                    <label>
+                        <input type="text" class="search" placeholder="Search location, properties, residental group" />
+                    </label>
+                    <label>
+                        <input type="button" class="search-button" value="Search" />
+                    </label>
                 </form>
                 <table>
                     <tr>
@@ -49,8 +53,8 @@
                     </tr>
                 </table>
             </div>
-        </div>
-        <div class="Stages">
+        </header>
+        <section class="stages">
             <h1>Tahapan Pembelian Properti yang Mudah dan Cepat</h1>
             <div class="box">
                 <h2>Pilih Properti</h2>
@@ -76,8 +80,8 @@
                 </p>
                 <h4>Baca lebih Lanjut</h4>
             </div>
-        </div>
-        <div class="Resident_favorit">
+        </section>
+        <main class="resident_favorit">
             <p>Pilihan konsumen</p>
             <h2>Residen Favorit</h2>
             <img src="./image/brown-house.png" alt="brown-house" />
@@ -88,11 +92,15 @@
                 profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
             </p>
             <form action="#">
-                <input type="button" value="Hubungi Kami" />
-                <input type="button" value="Explore lebih banyak" />
+                <label>
+                    <input type="button" value="Hubungi Kami" />
+                </label>
+                <label>
+                    <input type="button" value="Explore lebih banyak" />
+                </label>
             </form>
-        </div>
-        <div class="inhabitants">
+        </main>
+        <section class="inhabitants">
             <p>Pilihan Auditor</p>
             <h2>Residen Berbagai Kota</h2>
             <div class="box_image">
@@ -113,38 +121,42 @@
                     12440
                 </p>
             </div>
-        </div>
-        <div class="Contact">
+        </section>
+        <footer>
             <div class="contact_us">
                 <h2>Hubungi Kami</h2>
                 <form action="#">
                     <img src="image/Icon_tel.png" alt="telephon" />
                     <p>Call</p>
                     <br />
-                    <p>+6281232936733</p>
-                    <input type="button" value="Call Now" />
+                    <a href="tel:+6281232936733">+6281232936733</a>
+                    <label>
+                        <input type="button" value="Call Now" />
+                    </label>
                 </form>
                 <form action="#">
                     <img src="image/icon_mail.png" alt="email" />
                     <p>email</p>
                     <br />
-                    <p>omahindev@gmail.com</p>
-                    <input type="button" value="Email Now" />
+                    <a href="mailto:#">omahindev@gmail.com</a>
+                    <label>
+                        <input type="button" value="Email Now" />
+                    </label>
                 </form>
             </div>
             <div class="reward">
                 <h2>Penghargaan</h2>
                 <img src="image/indoProperty.png" alt="IndonesiaPropertyAwards" />
-                <img src="image/internationalPro.png" alt="InternationalPropertyAwards" />
+                <img src="image/internationalPro.png" alt="InternationalPropertyAwardsgit" />
             </div>
-        </div>
-        <div class="footer">
-            <span class="letter-logo">O</span>
-            <span class="text-logo">mah</span>
-            <img src="image/icon_insta.png" alt="instagram" />
-            <img src="image/icon_fb.png" alt="facebook" />
-            <img src="image/icon_twit.png" alt="twitter" />
-            <img src="image/icon_in.png" alt="linkedin" />
-        </div>
+            <div class="down">
+                <span class="letter-logo">O</span>
+                <span class="text-logo">mah</span>
+                <img src="image/icon_insta.png" alt="instagram" />
+                <img src="image/icon_fb.png" alt="facebook" />
+                <img src="image/icon_twit.png" alt="twitter" />
+                <img src="image/icon_in.png" alt="linkedin" />
+            </div>
+        </footer>
     </body>
 </html>
