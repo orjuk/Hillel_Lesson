@@ -1,0 +1,13 @@
+.lemon {
+  background-image: url(https://static3.depositphotos.com/1003288/163/i/600/depositphotos_1634987-stock-photo-lemon-skin.jpg);
+  width: 325px;
+  height: 279px;
+  margin: 70px;
+  border-top: 200px;
+  border-top-left-radius: 1800px;
+  border-top-right-radius: 302px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 1800px;
+  border: 2px solid;
+  border-color: yellow;
+}
